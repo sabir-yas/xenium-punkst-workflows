@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use the Xenium cropping notebook or workflows in this repository, please cite it."
+title: "Xenium ROI Cropping + FICTURE Workflows"
+type: software
+authors:
+  - family-names: "Sabir"
+    given-names: "Yaseer"
+    affiliation: "University of Colorado Denver"
+  - family-names: "Huang"
+    given-names: "Mingxia"
+    affiliation: "University of Colorado Anschutz Medical Campus"
+    email: "mingxia.huang@cuanschutz.edu"
+    role:
+      - corresponding-author
+  - family-names: "Cruz-Martín"
+    given-names: "Alberto"
+    affiliation: "University of Colorado Anschutz Medical Campus"
+    email: "alberto.cruzmartin@cuanschutz.edu"
+    role:
+      - corresponding-author
+
+repository-code: "https://github.com/CruzMartinLab/xenium-punkst-workflows"
+license: MIT
+version: 0.1.0
+date-released: 2026-02-04
+abstract: >
+  An open-source workflow for applying segmentation-free spatial
+  factorization (FICTURE / punkst) to 10x Xenium datasets, including
+  Napari-based ROI cropping and multi-sample joint inference.
+
+preferred-citation:
+  type: software
+  title: "Xenium ROI Cropping + FICTURE Workflows"
+  authors:
+    - family-names: "Sabir"
+      given-names: "Yaseer"
+    - family-names: "Huang"
+      given-names: "Mingxia"
+    - family-names: "Cruz-Martín"
+      given-names: "Alberto"
+  year: 2026
+  url: "https://github.com/CruzMartinLab/xenium-punkst-workflows"
